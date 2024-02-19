@@ -1,0 +1,42 @@
+    body {
+      margin: 0;
+      padding: 0;
+      position: relative; 
+      height: 100vh;
+      background-image: url('../images/ex.jpg'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+
+    }
+
+    .container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: left;
+      padding: 20px;
+      color: white; 
+      font-family: fantasy; 
+    }
+
+    .btn-raised {
+      font-size: 24px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+      font-family: fantasy; 
+    }
+
+    .btn-raised:hover {
+      background-color: #0056b3;
+    }
+
+    .icon {
+      vertical-align: middle;
+      margin-left: 10px;
+    }
